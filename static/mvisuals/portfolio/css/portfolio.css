@@ -1,0 +1,49 @@
+
+/*----- propios ----*/
+.tabla3col .contentBg {border-left:0px; border-right:0px}
+.tabla3col .news_content_header h3 {min-height:65px;}
+
+/*-- pretty gallery ---*/
+ul.pgallery {
+    margin-top:10px;
+    width:948px;display:block;
+    }
+ul.pgallery li {
+    display: block;
+    float: left;
+    height: 125px;width: 125px;
+    margin: 0 21px 20px 0;
+    padding: 6px;
+    background-color: #fff
+}
+ul.pgallery li:hover{background-color:#aaa}
+
+
+.portfolio_item .media {
+    float:left;
+    display:block;
+    width:280px;
+}
+.portfolio_item .media a {display:block}
+.portfolio_item .media img {width:250px;height:125px}
+.portfolio_item .media div.foto {position:relative;width:250px;height:150px;}
+.portfolio_item .media div.verfoto,div.vervideo {display:block;
+    width:250px;height:150px;
+    z-index:299;
+    position:absolute;
+    padding-left:10px;
+}
+.portfolio_item .media div.vervideo {
+    background: url("../../../portfolio/images/video.png") no-repeat scroll center center transparent;
+    opacity:0.7;
+}
+.portfolio_item .media div.vervideo:hover {
+    background: url("../../../portfolio/images/video.png") no-repeat scroll center center transparent;
+    opacity:1.0;
+}
+.portfolio_item .media div.verfoto:hover {
+    background: url("../../../portfolio/images/link.gif") no-repeat scroll center center transparent;
+    opacity:0.5;
+}
+
+.portfolio_item ul {margin-left:280px;}
